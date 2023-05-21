@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijay || Home</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="script.js"></script>
+
+</head>
+<style>
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+    
+    .hero {
+        /* background-color: #E9b949; */
+        /* background-color: hsl(45, 100%, 96%); */
+        background-color: black;
+    }
+    
+    .about-img::before {
+        border: 2px solid #E9b949;
+    }
+    
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+    
+    .hero-img::before {
+        border: 2px solid #E9b949;
+    }
+    
+    .underline {
+        border: 3px solid #E9b949;
+    }
+    
+    .btn {
+        background-color: #E9b949;
+    }
+    
+    .skills section {
+        background-color: #E9b949;
+    }
+    
+    .skill-value {
+        background-color: #E9b949;
+    }
+    
+    .footer {
+        background-color: black;
+    }
+    
+    .fa-linkedin:before {
+        color: white;
+    }
+    
+    .fa-facebook:before {
+        color: white;
+    }
+    
+    .connect::after {
+        background-color: black;
+    }
+</style>
+
+<body>
+
+    <div class="dark-mode ">>
+        <!-- navbar -->
+        <nav class="nav" id="nav">
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <!-- <img src="./images/logo.svg" class="nav-logo" alt="" /> -->
+                    <h3>Vijay<strong style="color:#E9b949">Thakur</strong></h3>
+                    <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+                </div>
+                <!-- nav links -->
+                <ul class="nav-links">
+                    <li><a href="index.html" style="color:white;">home</a></li>
+                    <li><a href="about.html" style="color:white;">about</a></li>
+                    <li><a href="projects.html" style="color:white;">projects</a></li>
+                    <li><a href="contact.html" style="color:white;">contact</a></li>
+                    <!-- <button onclick="myFunction()">Toggle dark mode</button> -->
+                </ul>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+        <!-- sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div>
+                <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+                <ul class="sidebar-links">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="projects.html">projects</a></li>
+                    <li><a href="contact.html">contact</a></li>
+
+                </ul>
+                <ul class="social-icons">
+                    <!-- single item -->
+                    <li>
+                        <a href="https://www.twitter.com" class="social-icon" style="background-color:white; color: white;">
+                            <i class="fab fa-facebook" style="color: white;"></i>
+                        </a>
+                    </li>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <li>
+                        <a href="https://www.twitter.com" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <li>
+                        <a href="https://www.twitter.com" class="social-icon">
+                            <i class="fab fa-squarespace"></i>
+                        </a>
+                    </li>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <li>
+                        <a href="https://www.twitter.com" class="social-icon">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                    </li>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <li>
+                        <a href="https://www.twitter.com" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <!-- end of single item -->
+                </ul>
+            </div>
+        </aside>
+        <!-- end of sidebar -->
+        <!-- header -->
+        <header class="hero">
+            <div class="section-center hero-center">
+                <article class="hero-info">
+                    <div class="underline"></div>
+                    <h1>I'm Vijay Thakur</h1>
+                    <h4 style="color:#E9b949">Front-end developer</h4>
+                    <!-- <a href="contact.html" class="btn hero-btn">hire me</a> -->
+                    <button onclick="downloadPDF()" class="btn hero-btn">Show PDF</button>
+                    <ul class="social-icons hero-icons">
+                        <!-- single item -->
+                        <li>
+                            <a href="https://www.twitter.com" class="social-icon">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <!-- end of single item -->
+                        <!-- single item -->
+                        <li>
+                            <a href="https://www.twitter.com" class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <!-- end of single item -->
+                        <!-- single item -->
+                        <li>
+                            <a href="https://www.twitter.com" class="social-icon">
+                                <i class="fab fa-squarespace"></i>
+                            </a>
+                        </li>
+                        <!-- end of single item -->
+                        <!-- single item -->
+                        <li>
+                            <a href="https://www.twitter.com" class="social-icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </li>
+                        <!-- end of single item -->
+                        <!-- single item -->
+                        <li>
+                            <a href="https://www.twitter.com" class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <!-- end of single item -->
+                    </ul>
+                </article>
+                <article class="hero-img">
+                    <img src="./images/img.jpeg" class="hero-photo" alt="vijay" />
+                </article>
+            </div>
+        </header>
+        <!-- end of header -->
+        <!-- about -->
+        <section class="section about">
+            <div class="section-center about-center">
+                <!-- about img -->
+                <article class="about-img">
+                    <img src="./images/Rectangle 1083.png" class="hero-photo" alt="" />
+                </article>
+                <!-- about info -->
+                <article class="about-info">
+                    <!-- section title -->
+                    <div class="section-title about-title">
+                        <h2>about</h2>
+                        <div class="underline"></div>
+                    </div>
+                    <!-- section title -->
+                    <!-- lorem 40 -->
+                    <p style="color:white">
+                        I am a passionate and dedicated front-end developer seeking an opportunity to kickstart my career in the exciting world of web development. With a strong foundation in front-end technologies such as ReactJS, HTML, CSS, JavaScript, and Bootstrap 5, I am
+                        eager to contribute my skills and creativity to create visually appealing and user-friendly web applications.
+                    </p>
+                    <!-- lorem 40 -->
+                    <p style="color:white">
+                        As a fresher, I am eager to learn and grow in the field of front-end development. I am constantly exploring new technologies and industry trends to stay up-to-date and enhance my skill set. I am seeking an environment where I can contribute my knowledge
+                        and skills while gaining valuable experience and mentorship from seasoned professionals.
+                    </p>
+                    <a href="about.html" class="btn about-btn">about me</a>
+                </article>
+            </div>
+        </section>
+        <!-- end of about about -->
+        <!-- services -->
+
+        <!-- end of services -->
+        <!-- projects -->
+        <section class="section projects">
+            <!-- section title -->
+            <div class="section-title">
+                <h2>latest works</h2>
+                <div class="underline"></div>
+                <p class="projects-text" style="color:white">
+                    As a web developer, my latest work involved creating a fully responsive website for a client using modern web development technologies such as HTML5, CSS3, JavaScript, React and TailwindCss.
+
+                </p>
+            </div>
+            <!-- end of section title -->
+            <div class="section-center projects-center">
+                <!-- single project -->
+                <a href="https://aemable-oif2ags5c-gaganvashishth.vercel.app/about-us" class="project-1">
+                    <article class="project">
+                        <img src="./images/project-1.jpeg" alt="" class="project-img" />
+                        <div class="project-info">
+                            <h4>sproject title</h4>
+                            <p>client name</p>
+                        </div>
+                    </article>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="project.html" class="project-2">
+                    <article class="project">
+                        <img src="./images/Ap-partner.jpg" alt="" class="project-img" />
+                        <div class="project-info">
+                            <h4>Law website</h4>
+                            <p>client name - Ap-partner</p>
+                        </div>
+                    </article>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="project.html" class="project-3">
+                    <article class="project">
+                        <img src="./images/project-3.jpeg" alt="" class="project-img" />
+                        <div class="project-info">
+                            <h4>dsdsproject title</h4>
+                            <p>vvclient name</p>
+                        </div>
+                    </article>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="projects.html" class="project-4">
+                    <article class="project">
+                        <img src="./images/project-4.jpeg" alt="" class="project-img" />
+                        <div class="project-info">
+                            <h4>dsproject title</h4>
+                            <p>dsclient name</p>
+                        </div>
+                    </article>
+                </a>
+                <!-- end of single project -->
+            </div>
+        </section>
+        <!-- endo of projects -->
+        <!-- connect -->
+        <section class="connect">
+            <video controls autoplay muted loop poster="./images/project-4.jpeg" class="video-container">
+        <!-- <source src="./videos/connect.mp4" type="video/mp4" /> -->
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+            <div class="video-banner">
+                <div class="section-title">
+                    <h2>Contact Me</h2>
+                    <div class="underline"></div>
+                </div>
+                <p class="video-text" style="color: rgb(255, 255, 255);">
+                    If you are looking to hire as a Front-end developer then you can Contact me to click the button.
+                </p>
+                <a href="contact.html" class="btn">contact me</a>
+            </div>
+        </section>
+        <!-- end of connect -->
+        <!-- skills -->
+        <section class="skills section">
+            <!-- section title -->
+            <div class="section-title">
+                <h2>skills</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- section title -->
+            <div class="section-center skills-center">
+                <article>
+                    <h3>front end</h3>
+                    <!-- single skill -->
+                    <div class="skill">
+                        <p>HTML/CSS</p>
+                        <div class="skill-container">
+                            <div class="skill-value"></div>
+                            <p class="skill-text">
+                                90%
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of single skill -->
+                    <!-- single skill -->
+                    <div class="skill">
+                        <p>javascript</p>
+                        <div class="skill-container">
+                            <div class="skill-value value-70"></div>
+                            <p class="skill-text skill-text-70">
+                                70%
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of single skill -->
+                    <!-- single skill -->
+                    <div class="skill">
+                        <p>React js</p>
+                        <div class="skill-container">
+                            <div class="skill-value value-80"></div>
+                            <p class="skill-text skill-text-80">
+                                80%
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Tailwind Css</p>
+                        <div class="skill-container">
+                            <div class="skill-value value-100"></div>
+                            <p class="skill-text skill-text-100">
+                                100%
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Boostrap 5</p>
+                        <div class="skill-container">
+                            <div class="skill-value value-90"></div>
+                            <p class="skill-text skill-text-90">
+                                100%
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of single skill -->
+                </article>
+
+
+
+
+
+
+
+
+                <!-- end of single skill -->
+                </article>
+            </div>
+        </section>
+        <!-- end of skills -->
+        <!-- timeline -->
+
+        <!--end of  timeline -->
+        <!-- blog -->
+        <section class="section blog">
+            <div class="section-title">
+                <h2>blog</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- blog center -->
+            <div class="section-center blog-center">
+                <!-- single article -->
+                <article>
+                    <div class="card">
+                        <!-- card front -->
+                        <div class="card-side card-front">
+                            <img src="./images/project-1.jpeg" alt="" />
+                            <div class="card-info">
+                                <h4>article title</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt odit repellat provident, aperiam corporis! Excepturi eveniet saepe praesentium deleniti.
+                                </p>
+                                <div class="card-footer">
+                                    <img src="./images/hero-img-small.jpeg" alt="author image" />
+                                    <p>7 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card back -->
+                        <div class="card-side card-back">
+                            <button class="btn">read more</button>
+                        </div>
+                    </div>
+                </article>
+                <!-- end of single article -->
+                <!-- single article -->
+                <article>
+                    <div class="card">
+                        <!-- card front -->
+                        <div class="card-side card-front">
+                            <img src="./images/project-2.jpeg" alt="" />
+                            <div class="card-info">
+                                <h4>article title</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt odit repellat provident, aperiam corporis! Excepturi eveniet saepe praesentium deleniti.
+                                </p>
+                                <div class="card-footer">
+                                    <img src="./images/hero-img-small.jpeg" alt="author image" />
+                                    <p>7 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card back -->
+                        <div class="card-side card-back">
+                            <button class="btn">read more</button>
+                        </div>
+                    </div>
+                </article>
+                <!-- end of single article -->
+                <!-- single article -->
+                <article>
+                    <div class="card">
+                        <!-- card front -->
+                        <div class="card-side card-front">
+                            <img src="./images/project-3.jpeg" alt="" />
+                            <div class="card-info">
+                                <h4>article title</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt odit repellat provident, aperiam corporis! Excepturi eveniet saepe praesentium deleniti.
+                                </p>
+                                <div class="card-footer">
+                                    <img src="./images/hero-img-small.jpeg" alt="author image" />
+                                    <p>7 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card back -->
+                        <div class="card-side card-back">
+                            <button class="btn">read more</button>
+                        </div>
+                    </div>
+                </article>
+                <!-- end of single article -->
+                <!-- single article -->
+                <article>
+                    <div class="card">
+                        <!-- card front -->
+                        <div class="card-side card-front">
+                            <img src="./images/project-4.jpeg" alt="" />
+                            <div class="card-info">
+                                <h4>article title</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt odit repellat provident, aperiam corporis! Excepturi eveniet saepe praesentium deleniti.
+                                </p>
+                                <div class="card-footer">
+                                    <img src="./images/hero-img-small.jpeg" alt="author image" />
+                                    <p>7 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card back -->
+                        <div class="card-side card-back">
+                            <button class="btn">read more</button>
+                        </div>
+                    </div>
+                </article>
+                <!-- end of single article -->
+            </div>
+        </section>
+        <!-- end of blog -->
+        <footer class="footer">
+            <ul class="social-icons">
+                <!-- single item -->
+                <li>
+                    <a href="https://www.twitter.com" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <!-- end of single item -->
+                <!-- single item -->
+                <li>
+                    <a href="https://www.twitter.com" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <!-- end of single item -->
+                <!-- single item -->
+                <li>
+                    <a href="https://www.twitter.com" class="social-icon">
+                        <i class="fab fa-squarespace"></i>
+                    </a>
+                </li>
+                <!-- end of single item -->
+                <!-- single item -->
+                <li>
+                    <a href="https://www.twitter.com" class="social-icon">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                </li>
+                <!-- end of single item -->
+                <!-- single item -->
+                <li>
+                    <a href="https://www.twitter.com" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <!-- end of single item -->
+            </ul>
+
+            <p>&copy; <span id="date"></span> Vijay Thakur. All rights reserved.</p>
+        </footer>
+    </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+<script>
+    function downloadPDF() {
+        var element = document.createElement('a');
+        element.setAttribute('href', 'C:/Resume (8).pdf'); // Replace 'path/to/your/file.pdf' with the actual file path
+        element.setAttribute('download', 'C:/Resume (8).pdf'); // Replace 'your-file-name.pdf' with the desired file name
+
+        element.style.display = 'none';
+        document.body.appendChild(element);
+
+        element.click();
+
+        document.body.removeChild(element);
+    }
+</script>
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+
+</html>
+
+</html>
